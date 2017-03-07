@@ -19,6 +19,8 @@ public class Main {
     CrossbowMan cross = new CrossbowMan(17,6,18,22);
     Musketeer fernando = new Musketeer(15,8,18,26);
     
+    
+    
         
      while(stone.getHits()>0 && fernando.getHits()>0){
       stone.attack(fernando);
