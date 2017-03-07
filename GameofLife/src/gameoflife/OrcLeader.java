@@ -9,10 +9,10 @@ package gameoflife;
  *
  * @author Nichlas
  */
-public abstract class InfantryFactory {
+public class OrcLeader extends InfantryUnit {
     
-    public InfantryUnit createUnit(int techLevel){
-       return null; 
+    public OrcLeader(int range, int armor, int hits, int damage) {
+        super(range, armor, hits, damage);
     }
     
 }
